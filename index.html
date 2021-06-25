@@ -5,8 +5,8 @@
     <title>Matthew Great site</title>
     <style>
         body {
-            background: rgba(42, 29, 224, 0.966);
-            color: rgb(255, 38, 38);
+            background: rgb(202, 211, 216);
+            color: rgba(29, 1, 1);
             padding: 10px;
             font-family: arial;
         }
@@ -18,16 +18,17 @@
 
         /* navigation menu */
         nav {
-            background: rgba(255, 255, 255, 0);
+            background: rgba(122, 122, 122);
             margin: 0 auto;
             display: flex;
-            padding: 10px;
+            padding: 10px; 
+            margin-bottom: 20px;
         }
 
         h1 {
             display: flex;
             align-items: center;
-            color: white;
+            color: rgb(0, 0, 0);
             flex: 1;
             margin: 0;
         }
@@ -48,7 +49,7 @@
 
         /* main container area beneath menu */
         main {
-            background: rgb(245, 238, 219);
+            background: rgb(255, 255, 255);
             display: flex;
         }
 
@@ -80,35 +81,45 @@
 
 <body>
     <!-- All content goes here -->
-    <div>
+    <div id="all-contents">
         
         
         <nav>
-            PERSONAL LIFE 
-            <h1>The Life of Matthew</h1>
-        </nav>
+            
+            <h1>The Life of Matthew</h1> 
+            <ul id="nav-ul"> 
+                <li class="nav-li"> 
+                    <a href="index.html"> Home </a>
+                </li> 
+                <li class="nav-li"> 
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>  
 
         <main>
             <!-- Sidebar section -->
-            <div> 
-               
+            <div class="sidebar"> 
+                <img class="sidebar-img" src="https://static.scientificamerican.com/sciam/cache/file/4F73FD83-3377-42FC-915AD56BD66159FE_source.jpg">
             </div>
 
             <!-- Content section -->
-            <div>
-                <h2>Home page</h2>
-                <p>Matthew means Gift of Yahweh</p>
-                <p>Operation Spark Student</p>
+            <div class="content"> 
+                <h3>Matthew Holden</h3> 
+                <p>Matthew is very outgoing person because when he put his mind to something he don't give up</p> 
+                <p>He attent a summer program called Operation Spark which teaches people how to code </p> 
+                <div id="interests">
+                    <h4>Interests</h4>
+                    <ul>
+                        <li>Work </li> 
+                        <li>Coding school</li> 
+                        <li>Video games</li>  
+                        <liv>basketball</liv> 
+                    </ul>
+                </div>
             </div>
         </main>
-        <div>
-            <h4>Matthew free time</h4>
-            <ul>
-                <li>Work</li>
-                <li>Coding school</li>
-                <li>Video games</li>
-            </ul>
-        </div>
+      
 </body>
 
 </html>
