@@ -84,9 +84,7 @@ var init = function (window) {
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
             // if it goes left put it on the right 
-            if (circle.x < 0) { 
-                circle.x =  ; 
-            } 
+           
               // if its goes past the bottom put it on the top
             if (circle.y > canvas.height) { 
                 circle.y = 0;
